@@ -11,7 +11,7 @@ setuptools.setup(
     description="Automatic segmentation of Traumatic Brain Injury (TBI) in Head CT",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/biomedia-mira/blast_ct",
+    url="https://github.com/dhyey-italiya/blast-ct",
     packages=['blast_ct', 'blast_ct.models', 'blast_ct.nifti', 'blast_ct.trainer', 'blast_ct.localisation'],
     package_data={'': ['data/saved_models/*.torch_model', 'data/config.json', 'README.md',
                        'data/localisation_files/*.nii.gz',
